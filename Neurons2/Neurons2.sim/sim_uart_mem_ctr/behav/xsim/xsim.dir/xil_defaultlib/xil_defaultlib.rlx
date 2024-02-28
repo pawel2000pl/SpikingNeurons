@@ -1,0 +1,18 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.sim/sim_uart_mem_ctr/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sim_uart_mem_ctr/new/tb_uart_memory_controller.sv,1705493872,systemVerilog,,,,tb_uart_memory_controller,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/AIProcessor.sv,1705487411,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/uart_memory_controller.sv,,AIProcessor,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/Core.sv,1705496955,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/AIProcessor.sv,,Core,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/Microchip.sv,1705446347,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/Neuron.sv,,Microchip,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/Neuron.sv,1705442311,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/RecurencySum.sv,,Neuron,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/RecurencySum.sv,1705358589,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/clock_divider.sv,,RecurencySum,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/clock_divider.sv,1705136879,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/prime_random_lite_generator.sv,,clock_divider,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/main.sv,1705513403,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/Core.sv,,main,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/prime_random_lite_generator.sv,1705347471,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/prob_generator.sv,,prime_random_lite_generator,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/prob_generator.sv,1705349395,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/uart_reciever.sv,,prob_generator,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/uart_memory_controller.sv,1705493642,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sim_uart_mem_ctr/new/tb_uart_memory_controller.sv,,uart_memory_controller,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/uart_reciever.sv,1703247939,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/uart_sender.sv,,uart_reciever,,uvm,,,,,,
+/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/uart_sender.sv,1705515210,systemVerilog,,/home/pawel24pl/Programy/Vivado/Neurons2/Neurons2/Neurons2.srcs/sources_1/new/main.sv,,uart_sender,,uvm,,,,,,

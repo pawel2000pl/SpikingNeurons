@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Neurons2.ip_user_files/ipstatic" \
+"../../../../Neurons2.gen/sources_1/ip/batch_buffer_input/sim/batch_buffer_input.v" \
+"../../../../Neurons2.gen/sources_1/ip/batch_buffer_output/sim/batch_buffer_output.v" \
+"../../../../Neurons2.gen/sources_1/ip/clk_div_4/clk_div_4_clk_wiz.v" \
+"../../../../Neurons2.gen/sources_1/ip/clk_div_4/clk_div_4.v" \
+
+sv xil_defaultlib  --include "../../../../Neurons2.ip_user_files/ipstatic" \
+"../../../../Neurons2.srcs/sources_1/new/Neuron.sv" \
+"../../../../Neurons2.srcs/sources_1/new/RecurencySum.sv" \
+"../../../../Neurons2.srcs/sources_1/new/clock_divider.sv" \
+"../../../../Neurons2.srcs/sources_1/new/prime_random_lite_generator.sv" \
+"../../../../Neurons2.srcs/sources_1/new/prob_generator.sv" \
+"../../../../Neurons2.srcs/sources_1/new/uart_reciever.sv" \
+"../../../../Neurons2.srcs/sources_1/new/uart_sender.sv" \
+"../../../../Neurons2.srcs/sources_1/new/main.sv" \
+"../../../../Neurons2.srcs/sources_1/new/Core.sv" \
+"../../../../Neurons2.srcs/sources_1/new/AIProcessor.sv" \
+"../../../../Neurons2.srcs/sources_1/new/uart_memory_controller.sv" \
+"../../../../Neurons2.srcs/sources_1/new/ParaNaturalDistributor.sv" \
+"../../../../Neurons2.srcs/nat_dist/new/tb_nat_dist.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

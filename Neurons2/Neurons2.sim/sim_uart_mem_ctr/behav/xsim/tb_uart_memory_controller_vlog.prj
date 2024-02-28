@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Neurons2.srcs/sources_1/new/Microchip.sv" \
+"../../../../Neurons2.srcs/sources_1/new/Neuron.sv" \
+"../../../../Neurons2.srcs/sources_1/new/RecurencySum.sv" \
+"../../../../Neurons2.srcs/sources_1/new/clock_divider.sv" \
+"../../../../Neurons2.srcs/sources_1/new/prime_random_lite_generator.sv" \
+"../../../../Neurons2.srcs/sources_1/new/prob_generator.sv" \
+"../../../../Neurons2.srcs/sources_1/new/uart_reciever.sv" \
+"../../../../Neurons2.srcs/sources_1/new/uart_sender.sv" \
+"../../../../Neurons2.srcs/sources_1/new/main.sv" \
+"../../../../Neurons2.srcs/sources_1/new/Core.sv" \
+"../../../../Neurons2.srcs/sources_1/new/AIProcessor.sv" \
+"../../../../Neurons2.srcs/sources_1/new/uart_memory_controller.sv" \
+"../../../../Neurons2.srcs/sim_uart_mem_ctr/new/tb_uart_memory_controller.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_core_mem_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_core_mem" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="11.820000001 ms"></ZoomEndTime>
+      <Cursor1Time time="0.000000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="254"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/tb_core_mem/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/rx">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/tx">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/wanted_addr">
+      <obj_property name="ElementShortName">wanted_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wanted_addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/write_data">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/write_enabled">
+      <obj_property name="ElementShortName">write_enabled</obj_property>
+      <obj_property name="ObjectShortName">write_enabled</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/learning_active">
+      <obj_property name="ElementShortName">learning_active</obj_property>
+      <obj_property name="ObjectShortName">learning_active</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/scan_counter_can_run">
+      <obj_property name="ElementShortName">scan_counter_can_run</obj_property>
+      <obj_property name="ObjectShortName">scan_counter_can_run</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/scan_counter">
+      <obj_property name="ElementShortName">scan_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scan_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/loss_batch_value">
+      <obj_property name="ElementShortName">loss_batch_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loss_batch_value[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/sum_of_loss_value">
+      <obj_property name="ElementShortName">sum_of_loss_value[21:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_of_loss_value[21:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/new_loss_batch_value">
+      <obj_property name="ElementShortName">new_loss_batch_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">new_loss_batch_value[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/prev_loss_batch_value">
+      <obj_property name="ElementShortName">prev_loss_batch_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_loss_batch_value[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/out_counter_reset">
+      <obj_property name="ElementShortName">out_counter_reset</obj_property>
+      <obj_property name="ObjectShortName">out_counter_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/out_counters">
+      <obj_property name="ElementShortName">out_counters[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_counters[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/batch_expected_output">
+      <obj_property name="ElementShortName">batch_expected_output[31:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">batch_expected_output[31:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/modify">
+      <obj_property name="ElementShortName">modify</obj_property>
+      <obj_property name="ObjectShortName">modify</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/accept_new_weights">
+      <obj_property name="ElementShortName">accept_new_weights</obj_property>
+      <obj_property name="ObjectShortName">accept_new_weights</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/rollback">
+      <obj_property name="ElementShortName">rollback</obj_property>
+      <obj_property name="ObjectShortName">rollback</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/core_modifying">
+      <obj_property name="ElementShortName">core_modifying</obj_property>
+      <obj_property name="ObjectShortName">core_modifying</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights">
+      <obj_property name="ElementShortName">weights[31:0][34:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">weights[31:0][34:0][3:0]</obj_property>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[31]">
+         <obj_property name="ElementShortName">[31][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][34:0][3:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[30]">
+         <obj_property name="ElementShortName">[30][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[29]">
+         <obj_property name="ElementShortName">[29][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[28]">
+         <obj_property name="ElementShortName">[28][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[27]">
+         <obj_property name="ElementShortName">[27][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[26]">
+         <obj_property name="ElementShortName">[26][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[25]">
+         <obj_property name="ElementShortName">[25][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[24]">
+         <obj_property name="ElementShortName">[24][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[23]">
+         <obj_property name="ElementShortName">[23][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[22]">
+         <obj_property name="ElementShortName">[22][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[21]">
+         <obj_property name="ElementShortName">[21][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[20]">
+         <obj_property name="ElementShortName">[20][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[19]">
+         <obj_property name="ElementShortName">[19][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[18]">
+         <obj_property name="ElementShortName">[18][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[17]">
+         <obj_property name="ElementShortName">[17][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[16]">
+         <obj_property name="ElementShortName">[16][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[15]">
+         <obj_property name="ElementShortName">[15][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[14]">
+         <obj_property name="ElementShortName">[14][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[13]">
+         <obj_property name="ElementShortName">[13][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[12]">
+         <obj_property name="ElementShortName">[12][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[11]">
+         <obj_property name="ElementShortName">[11][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[10]">
+         <obj_property name="ElementShortName">[10][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[9]">
+         <obj_property name="ElementShortName">[9][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[8]">
+         <obj_property name="ElementShortName">[8][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[7]">
+         <obj_property name="ElementShortName">[7][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[6]">
+         <obj_property name="ElementShortName">[6][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[5]">
+         <obj_property name="ElementShortName">[5][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[4]">
+         <obj_property name="ElementShortName">[4][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[3]">
+         <obj_property name="ElementShortName">[3][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[2]">
+         <obj_property name="ElementShortName">[2][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[1]">
+         <obj_property name="ElementShortName">[1][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][34:0][3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/weights[0]">
+         <obj_property name="ElementShortName">[0][34:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][34:0][3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/core/modify_prob">
+      <obj_property name="ElementShortName">modify_prob[31:0]</obj_property>
+      <obj_property name="ObjectShortName">modify_prob[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_core_mem/ai_processor/neuron_reset">
+      <obj_property name="ElementShortName">neuron_reset</obj_property>
+      <obj_property name="ObjectShortName">neuron_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/batch_buffer_read_address">
+      <obj_property name="ElementShortName">batch_buffer_read_address[10:0]</obj_property>
+      <obj_property name="ObjectShortName">batch_buffer_read_address[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_core_mem/ai_processor/batch_buffer_size">
+      <obj_property name="ElementShortName">batch_buffer_size[10:0]</obj_property>
+      <obj_property name="ObjectShortName">batch_buffer_size[10:0]</obj_property>
+   </wvobject>
+</wave_config>
